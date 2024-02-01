@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 20px 50px;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 200px;
+}
+
+form {
+  padding: 15px 0;
+  float: right;
+  margin-left: 25px;
+}

@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 20px 50px;
+}
+
+#comment {
+  height: 284px;
+  width: 500px;
+}
+
+#submit {
+  height: 36px;
+  width: 100px;
+}
+
+.inputs-and-button-wrapper {
+  width: 500px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Sans-Serif;
+  font-size: 100%;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 50px 0;
+  background-color: #D0D6B3;
+  width: 100%;
+}
+
+h1,
+h2 {
+  color: #000;
+  text-align: center;
+}
+
+nav {
+  background-color: #e8eece;
+  border-color: #143109;
+  min-height: 64px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  width: 100px;
+}
+
+nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  color: #000;
+  line-height: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav li a:hover {
+  color: #565b20;
+  background-color: #97a06d;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.3;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+  color: #000;
+}
+
+footer {
+  background-color: #143109;
+  color: #AAAE7F;
+  padding: 20px 0;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+footer>p {
+  color: #F7F7F7;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 30px;
+  background-color: #256811;
+  animation-name: spin;
+  animation-duration: 4s; /* Впливає на швидкість обертання */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; /* Впливає на кількість разів коли виконується анімація */
+  animation-direction: alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    background-color: rgb(149, 189, 40);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Це стилі для збільшення розміру фотографій на інших сторінках */
+
+.image-animation {
+  transform: scale(0.95);
+  transition: .3s;
+}
+
+.image-animation:hover {
+  transform: scale(1);
+}

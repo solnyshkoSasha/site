@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 20px 50px;
+}
+
+.main p {
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 200px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.p-near-img {
+  min-height: calc(200px / 4 * 3);
+}
